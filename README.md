@@ -5,18 +5,6 @@ Python project in English
 
 Your task is to create a program that simulates the game Bulls and Cows. After displaying the introductory text to the user, the guessing of the secret four-digit number can begin. The program must meet the following requirements:
 
-At the beginning, describe your file with a header so that we can contact you more easily:
-
-  """
-projekt_2.py: second project for Engeto Online Python Academy
-
-author: Petr Svetr
-
-email: petr.svetr@gmail.com
-
-discord: Petr Svetr#4490
-"""
-
 Import necessary modules.
 
 The program greets the user and displays the introductory text.
