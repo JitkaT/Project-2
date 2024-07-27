@@ -18,9 +18,3 @@ The program evaluates the user's guess.
 The program then displays the number of bulls (if the user guesses both the number and its position) and cows (if the user guesses only the number but not its position). The returned evaluation must consider singular and plural in the output. Thus, 1 bull and 2 bulls (same for cow/cows).
 
 The code should be organized into short and clear functions.
-
-The program can do more. You can add, for example:
-
-    Counting the time it takes for the user to guess the secret number
-    Keeping statistics of the number of guesses for each game
-
