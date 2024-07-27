@@ -31,38 +31,6 @@ The program then displays the number of bulls (if the user guesses both the numb
 
 The code should be organized into short and clear functions.
 
-Introductory text:
-
-Hi there!
------------------------------------------------
-I've generated a random 4 digit number for you.
-Let's play a bulls and cows game.
------------------------------------------------
-Enter a number:
------------------------------------------------
-Example game with the number 2017:
-Hi there!
------------------------------------------------
-I've generated a random 4 digit number for you.
-Let's play a bulls and cows game.
------------------------------------------------
-Enter a number:
------------------------------------------------
-1234
-0 bulls, 2 cows
------------------------------------------------
-6147
-1 bull, 1 cow
------------------------------------------------
-2417
-3 bulls, 0 cows
------------------------------------------------
-2017
-Correct, you've guessed the right number
-in 4 guesses!
------------------------------------------------
-That's {amazing, average, not so good, ...}
-
 The program can do more. You can add, for example:
 
     Counting the time it takes for the user to guess the secret number
