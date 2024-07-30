@@ -30,7 +30,8 @@ def main():
 
     secret_number = creating_random_number()
     attempts = 0
-    max_attempts = 20 #This game gives user 20 attempts, this total number can be changed.
+    #This game gives user 20 attempts, but this total number can be changed.
+    max_attempts = 20 
     
     while attempts < max_attempts:
         guess = input(f"Attempt {attempts + 1}/{max_attempts}, enter your guess: ")
