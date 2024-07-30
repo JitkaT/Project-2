@@ -30,7 +30,7 @@ def main():
 
     secret_number = creating_random_number()
     attempts = 0
-    max_attempts = 1
+    max_attempts = 20 #This game gives user 20 attempts, this total number can be changed.
     
     while attempts < max_attempts:
         guess = input(f"Attempt {attempts + 1}/{max_attempts}, enter your guess: ")
@@ -39,7 +39,7 @@ def main():
             print("Invalid input! Please enter a 4-digit number with unique digits, not starting with 0.")
             continue
         
-        bulls, cows = bulls_and_cows_overall (guess, secret_number)
+        bulls, cows = bulls_and_cows_game (guess, secret_number)
         print(f"Attempt: {guess}, Bulls: {bulls}, Cows: {cows}")
         
         if bulls == 4:
@@ -62,19 +62,19 @@ def input_check(input_from_user):
         return False
     return True
 
-def bulls_and_cows_overall (attempt, secret):
-    """Returns the count of bulls and cows between the input from user (the attempt) and the secret number."""
+def bulls_and_cows_game (user_guess, secret_number):
+    """This function shows the count of bulls and cows by comparing the user's input (the user_guess) with the secret number."""
     bulls = 0
     cows = 0
     
     # Counting bulls
     for i in range(4):
-        if attempt[i] == secret[i]:
+        if user_guess[i] == secret_number[i]:
             bulls += 1
 
     # Counting cows
     for i in range(4):
-        if attempt[i] != secret[i] and attempt[i] in secret:
+        if user_guess[i] != secret_number[i] and user_guess[i] in secret_number:
             cows += 1
 
     return bulls, cows
