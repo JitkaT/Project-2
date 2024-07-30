@@ -40,7 +40,7 @@ def main():
             print("Invalid input! Please enter a 4-digit number with unique digits, not starting with 0.")
             continue
         
-        bulls, cows = bulls_and_cows_overall (guess, secret_number)
+        bulls, cows = bulls_and_cows_game (guess, secret_number)
         print(f"Attempt: {guess}, Bulls: {bulls}, Cows: {cows}")
         
         if bulls == 4:
