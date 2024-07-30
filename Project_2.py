@@ -17,7 +17,7 @@ def creating_random_number():
         random_number = random.sample(range(10), 4)
         if random_number[0] != 0:
             break
-    return ''.join([str(digit) for digit in random_number])
+    return ''.join(f"{digit}" for digit in random_number)
 
 def main():
     print("Hi there!")
