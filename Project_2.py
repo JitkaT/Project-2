@@ -44,7 +44,7 @@ def main():
         print(f"Attempt: {guess}, Bulls: {bulls}, Cows: {cows}")
         
         if bulls == 4:
-            print(f"Correct, you've guessed the right number {secret_number} in {attempts + 1} guesses!")
+            print(f"Correct, you have guessed the right number {secret_number} in {attempts + 1} guesses!")
             break
         
         attempts += 1
