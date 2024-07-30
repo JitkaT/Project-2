@@ -9,7 +9,6 @@ email: jitka.ticha@gmail.com
 discord: jitkaticha
 
 """
-
 import random
 
 def creating_random_number():
@@ -40,7 +39,7 @@ def main():
             print("Invalid input! Please enter a 4-digit number with unique digits, not starting with 0.")
             continue
         
-        bulls, cows = bulls_and_cows_game (guess, secret_number)
+        bulls, cows = bulls_and_cows_overall (guess, secret_number)
         print(f"Attempt: {guess}, Bulls: {bulls}, Cows: {cows}")
         
         if bulls == 4:
@@ -63,19 +62,19 @@ def input_check(input_from_user):
         return False
     return True
 
-def bulls_and_cows_game (test, secret):
+def bulls_and_cows_overall (attempt, secret):
     """Returns the count of bulls and cows between the input from user (the attempt) and the secret number."""
     bulls = 0
     cows = 0
     
     # Counting bulls
     for i in range(4):
-        if test[i] == secret[i]:
+        if attempt[i] == secret[i]:
             bulls += 1
 
     # Counting cows
     for i in range(4):
-        if test[i] != secret[i] and test[i] in secret:
+        if attempt[i] != secret[i] and attempt[i] in secret:
             cows += 1
 
     return bulls, cows
