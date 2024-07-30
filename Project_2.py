@@ -30,7 +30,7 @@ def main():
 
     secret_number = creating_random_number()
     attempts = 0
-    #This game gives user 20 attempts, but this total number can be changed.
+    #This game gives the user 20 attempts, but this total number can be changed.
     max_attempts = 20 
     
     while attempts < max_attempts:
