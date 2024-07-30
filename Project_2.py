@@ -1,6 +1,6 @@
 """
 
-projekt_2.py: the second project to Engeto Online Python Akademie
+projekt_2.py: the second project to the Engeto Online Python Akademie
 
 author: Jitka Tichá
 
