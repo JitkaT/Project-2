@@ -1,5 +1,5 @@
 # Project 2
-Python project in English
+Bulls & Cows -> Python project in English
 
 # Bulls & Cows
 
