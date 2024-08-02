@@ -12,7 +12,7 @@ discord: jitkaticha
 import random
 
 def creating_random_number():
-    """This function creates a 4-digit random number from the interval 0 to 9, which cannot start with 0 and must be unique (thanks to using random.sample)."""
+    """This function creates a 4-digit random number from the interval 0 to 9, which cannot start with 0 and must be unique (thanks to using the random.sample)."""
     while True:
         random_number = random.sample(range(10), 4)
         if random_number[0] != 0:
