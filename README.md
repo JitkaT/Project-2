@@ -3,7 +3,7 @@ Bulls & Cows -> Python project in English
 
 **Bulls & Cows**
 
-Your task is to create a program that simulates the game Bulls and Cows. After displaying the introductory text to the user, the guessing of the secret four-digit number can begin. The program must meet the following requirements:
+The task is to create a program that simulates the game Bulls and Cows. After displaying the introductory text to the user, the guessing of the secret four-digit number can begin. The program must meet the following requirements:
 
 * Import necessary modules.
 
