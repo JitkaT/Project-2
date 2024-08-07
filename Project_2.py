@@ -57,7 +57,7 @@ def input_check(input_from_user):
         return False
     if not input_from_user.isdigit():
         return False
-    if input_from_user[0] == 0:
+    if input_from_user[0] == "0":
         return False
     if len(set(input_from_user)) != 4:
         return False
